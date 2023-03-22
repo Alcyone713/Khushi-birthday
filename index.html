@@ -1,44 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Invaders in Khushi land</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khushi Land</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="header" style="display: flex; flex-direction: row; align-items: center; height: 50px; margin-bottom: 20px;">
-        <img src="./assets/khushi_logo.png" height="160px" alt="" srcset="">
-        <h1 style="text-align: center;">Invaders in Khushi Land</h1>
-    </div>
-    <div id="playWindow">
-        <div id="playArea">
-            <div id="scoreContainer">
-                <div class="score" id="lives"></div>
-                <div class="score" id="score"></div>
-                <div class="score" id="highScore"></div>
-                <div class="score" id="divFPS">FPS: 0</div>
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="./assets/1.png" alt="First slide">
             </div>
-            <div id="messageContainer">
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./assets/2.png" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./assets/3.png" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./assets/4.png" alt="Fourth slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./assets/5.png" alt="Fifth slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./assets/6.png" alt="Sixth slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./assets/7.png" alt="Seventh slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <a href="https://invaders-in-khushi-land.netlify.app/" target="_blank"><h4>Help Queen Khushi fend off enemies and regain peace in Khushi Land</h4></a>
+                </div>
             </div>
         </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
-
-    <script src="js/jquery331.min.js"></script>
-    <script src="js/defs.js"></script>
-    <script src="js/Sounds.js"></script>
-    <script src="js/Size.js"></script>
-    <script src="js/Point.js"></script>
-    <script src="js/Rect.js"></script>
-    <script src="js/Waypoint.js"></script>
-    <script src="js/Stars.js"></script>
-    <script src="js/Sprite.js"></script>
-    <script src="js/Explosion.js"></script>
-    <script src="js/Bullet.js"></script>
-    <script src="js/Enemy.js"></script>
-    <script src="js/Player.js"></script>
-    <script src="js/main.js"></script>
-
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
